@@ -1,0 +1,131 @@
+body,
+html {
+  margin: 0;
+  font-family: sans-serif;
+}
+/* ---------------------navbar-start-------------------------- */
+nav {
+  padding: 20px 200px !important;
+}
+.navbar-nav {
+  justify-content: space-around;
+}
+a {
+  /* color: rgb(255, 255, 255) !important; */
+  text-decoration: none !important;
+}
+@media (max-width: 768px) {
+  nav {
+    padding: 10px 20px !important;
+  }
+}
+/* ---------------------navbar-end-------------------------- */
+/* ---------------------body-start-------------------------- */
+.first {
+  background-color: #000;
+  height: 600px;
+}
+.content {
+  color: aliceblue;
+  text-align: center;
+  padding-top: 200px;
+}
+.kazi {
+  font-size: 100px;
+}
+.poet {
+  font-size: 40px;
+}
+@media (max-width: 768px) {
+  .content {
+    padding-top: 150px !important;
+  }
+  .kazi {
+    font-size: 40px;
+  }
+  .poet {
+    font-size: 15px;
+  }
+}
+/* ---------------------body-end-------------------------- */
+/* ---------------------about-start-------------------------- */
+.box {
+  padding: 50px 20px;
+}
+img {
+  width: 400px;
+  height: 400px;
+  padding: 40px 50px;
+}
+.btn {
+  border: 1px solid grey;
+}
+.btn-1 {
+  border: 1px solid red;
+  padding: 5px 15px;
+}
+.btn-2 {
+  border: 1px solid orange;
+  background-color: orangered;
+  padding: 7px 15px;
+}
+@media (max-width: 768px) {
+  img {
+    padding: 0px;
+    width: 250px;
+  }
+}
+/* ---------------------about-end-------------------------- */
+/* ---------------------youtube-start-------------------------- */
+.wiki {
+  text-align: center;
+  padding: 60px 0px;
+}
+/* ---------------------youtube-end-------------------------- */
+/* ---------------------quote-start-------------------------- */
+.block {
+  background-color: #000;
+  color: #fff;
+  height: 150px;
+}
+@media (max-width: 568px) {
+  .text {
+    font-size: 15px !important;
+  }
+}
+/* ---------------------quote-end-------------------------- */
+/* ---------------------award-start-------------------------- */
+.awards {
+  padding: 30px 3px;
+}
+.box-1 {
+  border: 2px solid grey;
+  border-radius: 5px;
+  padding: 10px;
+}
+.award {
+  padding-top: 50px;
+}
+/* ---------------------award-end-------------------------- */
+/* ---------------------poetry-start-------------------------- */
+
+/* ---------------------poetry-end-------------------------- */
+.poem {
+  background: #ffffff;
+  padding: 20px 0px;
+  transition: box-shadow 0.7s ease;
+}
+.poem:hover {
+  box-shadow: 0px 10px 30px #000;
+}
+/* ---------------------footer-start-------------------------- */
+.footer {
+  padding: 50px 20px;
+}
+@media (max-width: 568px) {
+  .end {
+    border-right: 0px !important;
+    border-bottom: 1px solid grey;
+  }
+}
+/* ---------------------footer-end-------------------------- */
